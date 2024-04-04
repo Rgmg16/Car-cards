@@ -40,18 +40,18 @@ redColor.addEventListener("click", function () {
 redColor2.addEventListener("click", function () {
     cartButton2.style.backgroundColor = "red";
     itemTag2.style.backgroundColor = "red";
-    imageCard2.style.backgroundImage = 'url("./Ferrari-458-Italia-RED.jpg")';
-    newPrice2.textContent = "$160,000";
-    oldPrice2.textContent = "$190,500";
+    imageCard2.style.backgroundImage = 'url("./Red corvette.jpg")';
+    newPrice2.textContent = "$47,000";
+    oldPrice2.textContent = "$51,500";
     feedbackBtn2.style.backgroundColor = "red"
 });
 
 redColor3.addEventListener("click", function () {
     cartButton3.style.backgroundColor = "red";
     itemTag3.style.backgroundColor = "red";
-    imageCard3.style.backgroundImage = 'url("./Ferrari-458-Italia-RED.jpg")';
-    newPrice3.textContent = "$160,000";
-    oldPrice3.textContent = "$190,500";
+    imageCard3.style.backgroundImage = 'url("./Red viper.jpg")';
+    newPrice3.textContent = "$95,000";
+    oldPrice3.textContent = "$105,000";
     feedbackBtn3.style.backgroundColor = "red"
 });
 
@@ -67,9 +67,9 @@ blueColor[0].addEventListener("click", function () {
 blueColor2[0].addEventListener("click", function () {
     cartButton2.style.backgroundColor = "blue";
     itemTag2.style.backgroundColor = "blue";
-    imageCard2.style.backgroundImage = 'url("./ferrari-458-Blue.jpg")';
-    newPrice2.textContent = "$180,000";
-    oldPrice2.textContent = "$200,500";
+    imageCard2.style.backgroundImage = 'url("./Blue corvette.jpg")';
+    newPrice2.textContent = "$45,000";
+    oldPrice2.textContent = "$50,000";
     feedbackBtn2.style.backgroundColor = "blue"
 });
 
@@ -77,9 +77,9 @@ blueColor2[0].addEventListener("click", function () {
 blueColor3[0].addEventListener("click", function () {
     cartButton3.style.backgroundColor = "blue";
     itemTag3.style.backgroundColor = "blue";
-    imageCard3.style.backgroundImage = 'url("./ferrari-458-Blue.jpg")';
-    newPrice3.textContent = "$180,000";
-    oldPrice3.textContent = "$200,500";
+    imageCard3.style.backgroundImage = 'url("./Blue viper.jpg")';
+    newPrice3.textContent = "$93,000";
+    oldPrice3.textContent = "$99,000";
     feedbackBtn3.style.backgroundColor = "blue"
 });
 
@@ -96,21 +96,21 @@ blackColor.addEventListener("click", function () {
 blackColor2.addEventListener("click", function () {
     cartButton2.style.backgroundColor = "black";
     itemTag2.style.backgroundColor = "black";
-    imageCard2.style.backgroundImage = 'url("./ferrari-458-Black.jpg")';
+    imageCard2.style.backgroundImage = 'url("./Black corvette.jpg")';
     feedbackBtn2.style.backgroundColor = "black"
     feedbackBtn2.style.color = "white"
-    newPrice2.textContent = "$190,995";
-    oldPrice2.textContent = "$210,500";
+    newPrice2.textContent = "$50,000";
+    oldPrice2.textContent = "$55,000";
 });
 
 blackColor3.addEventListener("click", function () {
     cartButton3.style.backgroundColor = "black";
     itemTag3.style.backgroundColor = "black";
-    imageCard3.style.backgroundImage = 'url("./ferrari-458-Black.jpg")';
+    imageCard3.style.backgroundImage = 'url("./Black viper.jpg")';
     feedbackBtn3.style.backgroundColor = "black"
     feedbackBtn3.style.color = "white"
-    newPrice3.textContent = "$190,995";
-    oldPrice3.textContent = "$210,500";
+    newPrice3.textContent = "$98,000";
+    oldPrice3.textContent = "$110,000";
 });
 
 const cart = () => {

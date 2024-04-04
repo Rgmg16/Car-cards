@@ -97,7 +97,7 @@
 
   .product-image2 {
     /* border: 2px solid black; */
-    background-image: url("ferrari-458-Black.jpg");
+    background-image: url("Black\ corvette.jpg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@
 
   .product-image3 {
     /* border: 2px solid black; */
-    background-image: url("ferrari-458-Black.jpg");
+    background-image: url("Black\ viper.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,8 +296,8 @@ button {
     border-radius: 5px;
   }
 
-  button red-button {
-    background-color: red;
+  button black-button {
+    background-color:black;
   }
   
   .button-text {
@@ -311,8 +311,8 @@ button {
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
-    background-color: red;
-    color:none;
+    background-color: black;
+    color:white;
   }
 
   .feedback2 {
@@ -320,8 +320,8 @@ button {
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
-    background-color: red;
-    color:none;
+    background-color: black;
+    color:white;
   }
 
   .feedback3 {
@@ -329,6 +329,6 @@ button {
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
-    background-color: red;
-    color:none;
+    background-color: black;
+    color:white;
   }
